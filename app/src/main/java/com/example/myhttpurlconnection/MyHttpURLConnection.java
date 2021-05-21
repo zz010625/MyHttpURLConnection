@@ -16,7 +16,7 @@ public class MyHttpURLConnection {
     private int mReadTimeout;
     private String mRequestMethod;//默认为GET
     private String mResult;//请求返回的结果
-    private String mPostData;
+    private String mPostData;//POST请求时发送的数据
     private MyHttpURLConnection.CallBack mCallBack;
 
     public MyHttpURLConnection(Builder builder) {
